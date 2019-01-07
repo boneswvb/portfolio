@@ -1,0 +1,8 @@
+$list-training: (certificatePhoto01a, certificatePhoto02a, certificatePhoto03a, certificatePhoto04a, certificatePhoto05a, certificatePhoto06a, certificatePhoto07a, certificatePhoto08a, certificatePhoto09a, certificatePhoto10a);
+
+@each $item in $list-training{
+    .#{$item}{
+        @include cerificates;
+    }
+}
+
