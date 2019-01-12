@@ -1,4 +1,4 @@
-var message = 'Currently under construction';
+var message = 'Currently under construction. Adding new code as I\'m learning them';
 
 function infoToViewer (one) {
   alert(one);
