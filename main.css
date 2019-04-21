@@ -224,6 +224,7 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: red;
+  transform: scale(1.1);
 }
 
 /* selected link */
@@ -325,8 +326,9 @@ body {
 h1 {
   color: #0000ff;
   text-align: center;
-  font-size: 48px;
+  font-size: 38px;
   font-family: lobster;
+  font-pading: 5px;
 }
 
 h2 {

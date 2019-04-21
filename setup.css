@@ -1,0 +1,62 @@
+.portfolioName {
+	float: left;
+	padding-left: 100px;
+	padding-right: 170px;
+}
+
+.portfolioPic {
+	float: right;
+}
+
+.TopNavigation {
+	clear: both;
+}
+
+.certificates {
+	text-align: center;
+}
+
+.certificates:hover {
+	transform: scale(1.2);
+}
+
+.completedProjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 5px;
+}
+
+.box {
+    padding: 20px;
+    margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box:hover {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+.quickLinks {
+	float: left;
+	margin-left: 250px;
+}
+
+.web {
+	float: right;
+	margin-right: 250px;
+}
+
+.footer {
+	clear: both;
+}
