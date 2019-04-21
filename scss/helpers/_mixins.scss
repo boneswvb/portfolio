@@ -8,8 +8,9 @@
     color: $main-heading-h1;
     text-align: center;
     font: {
-        size: 48px;
+        size: 38px;
         family: lobster;
+        pading: 5px;
     }
 }
 @mixin headingtwo {
