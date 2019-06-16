@@ -1,4 +1,4 @@
-.portfolioName {
+/* .portfolioName {
 	float: left;
 	padding-left: 100px;
 	padding-right: 170px;
@@ -6,8 +6,12 @@
 
 .portfolioPic {
 	float: right;
+} */
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
-
 .TopNavigation {
 	clear: both;
 }
