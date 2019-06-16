@@ -1,26 +1,25 @@
-@import url(href="https://fonts.googleapis.com/css?family=Lobster");
-@import url(href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-@import "scss/helpers/variables";
-@import "scss/helpers/mixins";
-@import "scss/helpers/functions";
-@import "scss/pages/index";
-@import "scss/components/form";
-@import "scss/components/aAnimation";
-@import "scss/components/buttons";
-@import "scss/components/pictures";
-@import "scss/layout/header";
-@import "scss/layout/footer";
-
-
 body {
   background-image: url(pictures/bground5Desert.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
-  line-height: 160%;
   font-family:Arial, Helvetica, sans-serif;
 }
+
+@import url(href="https://fonts.googleapis.com/css?family=Lobster");
+@import url(href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import "scss/helpers/variables";
+@import "scss/helpers/mixins";
+@import "scss/helpers/functions";
+@import "scss/components/form";
+@import "scss/components/aAnimation";
+@import "scss/components/buttons";
+@import "scss/layout/header";
+@import "scss/layout/footer";
+
+
+
 
 .projectPic {
   @include pj;  
