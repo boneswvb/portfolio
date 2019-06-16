@@ -59,3 +59,9 @@ body {
     grid-column: 10 / 11;
 	grid-row: 7;
 }
+
+.returnToPortfolio {
+    background-color: #0ff;
+    border: #0ff 1px solid;
+    border-radius: 15px;
+}

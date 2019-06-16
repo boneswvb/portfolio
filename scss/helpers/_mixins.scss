@@ -7,10 +7,10 @@
 @mixin headingone {
     color: $main-heading-h1;
     text-align: center;
+    padding: 5px;
     font: {
         size: 38px;
         family: lobster;
-        pading: 5px;
     }
 }
 @mixin headingtwo {
@@ -31,7 +31,6 @@
 }
 @mixin cerificates {
     text-align: left;
-    background-color: darkorange;
     width: 600px;
     height: 450px;
     margin: 10px;

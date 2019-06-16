@@ -1,8 +1,16 @@
 @import url(href="https://fonts.googleapis.com/css?family=Lobster");
 @import url(href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+body {
+  background-image: url(pictures/bground5Desert.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .certificatePhoto01a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -14,7 +22,6 @@
 
 .certificatePhoto02a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -26,7 +33,6 @@
 
 .certificatePhoto03a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -38,7 +44,6 @@
 
 .certificatePhoto04a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -50,7 +55,6 @@
 
 .certificatePhoto05a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -62,7 +66,6 @@
 
 .certificatePhoto06a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -74,7 +77,6 @@
 
 .certificatePhoto07a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -86,7 +88,6 @@
 
 .certificatePhoto08a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -98,7 +99,6 @@
 
 .certificatePhoto09a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -110,7 +110,6 @@
 
 .certificatePhoto10a {
   text-align: left;
-  background-color: darkorange;
   width: 600px;
   height: 450px;
   margin: 10px;
@@ -304,16 +303,7 @@ a:active {
 
 .footer {
   text-align: center;
-  background-color: chartreuse;
-}
-
-body {
-  background-image: url(pictures/bground5Desert.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100%;
-  line-height: 160%;
+  background-color: #12b0ee;
 }
 
 .projectPic {
@@ -326,9 +316,9 @@ body {
 h1 {
   color: #0000ff;
   text-align: center;
+  padding: 5px;
   font-size: 38px;
   font-family: lobster;
-  font-pading: 5px;
 }
 
 h2 {
